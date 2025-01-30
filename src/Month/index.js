@@ -72,7 +72,7 @@ export default class Month extends PureComponent {
             monthShort={monthShort}
 						theme={theme}
             year={year}
-            className={dateClassObj[date]}
+            customСlassName={dateClassObj[date]}
             {...passThrough.Day}
 					/>
 				);
