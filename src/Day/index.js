@@ -43,7 +43,7 @@ export default class Day extends PureComponent {
   
   render() {
     const {
-      className,
+      customСlassName,
       currentYear,
       date,
       day,
@@ -75,7 +75,7 @@ export default class Day extends PureComponent {
           [styles.selected]: isSelected,
           [styles.disabled]: isDisabled,
           [styles.enabled]: !isDisabled,
-        }, className)}
+        }, customСlassName)}
         onClick={this.handleClick}
         data-date={date}
         {...handlers}
